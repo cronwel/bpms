@@ -17,6 +17,15 @@ rails g controller Project
 - create index method
 - create view project/index.html.erb
 - create route 'root "project#index"'
+- add code from hello_vue.js to layouts/application.html.erb
+
+
+
+
+Configuration
+Rails/Vue
+- add functionality to yarn
+- yarn add vue-turbolinks
 
 
 
@@ -28,3 +37,9 @@ foreman start -f Procfile [starts webpack and rails together]
 
 Issues:
 1. webpack-dev-server-https://github.com/rails/webpacker/issues/1303
+
+
+Decision Points
+Router Types
+  - if it's a one page app, use view router
+  - If it's an application,use turbolinks? maybe
