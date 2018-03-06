@@ -1,6 +1,7 @@
 Update/Upgrade everything first
 - node
-    $ npm install udpate
+npm install udpate
+yarn install update
 
 -
 
@@ -12,3 +13,10 @@ rake db:create
 rake db:migrate
 
 create controllers
+
+
+Notes:
+foreman start -f Procfile [starts webpack and rails together]
+
+Issues:
+1. webpack-dev-server-https://github.com/rails/webpacker/issues/1303
