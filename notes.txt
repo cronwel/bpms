@@ -1,0 +1,14 @@
+Update/Upgrade everything first
+- node
+    $ npm install udpate
+
+-
+
+create models
+rails g model User name_first:string name_last:string email:string
+rails g model Project
+rails g model Plan
+rake db:create
+rake db:migrate
+
+create controllers
